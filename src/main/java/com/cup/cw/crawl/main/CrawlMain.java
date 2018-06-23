@@ -9,6 +9,6 @@ public class CrawlMain {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
         CrawlDemo crawlDemo = context.getBean("crawlDemo",CrawlDemo.class);
-
+        crawlDemo.start();
     }
 }

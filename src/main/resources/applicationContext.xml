@@ -20,10 +20,5 @@
     	<!--</property>-->
     <!--</bean>-->
 
-	<!--<bean id="crawlDemoConfig" class="com.cup.cw.configration.CrawlDemoConfig"/>-->
-
-	<!--<bean id="crawDemoConfig" class="com.cup.cw.crawl.CrawlDemo">-->
-		<!--<constructor-arg index="0" ref="crawlDemoConfig"/>-->
-	<!--</bean>-->
 
  </beans>

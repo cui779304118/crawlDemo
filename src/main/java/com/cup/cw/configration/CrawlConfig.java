@@ -32,7 +32,7 @@ public class CrawlConfig {
 
     public CrawlConfig(String configpath) throws IOException {
         Properties props = new Properties();
-        String relativelyPath = System.getProperty("user.dir");
+        String relativelyPath = CrawlConfig.class.getResource("/").getPath() + "properties" + File.separator;
         InputStream in = new FileInputStream(new File(relativelyPath + configpath));
         props.load(in);
         in.close();
