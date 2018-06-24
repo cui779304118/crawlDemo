@@ -73,7 +73,7 @@ public class CrawlConfig {
                     regexlist.add(regexs[i].trim());
                 }
             } else if (k.equals("resultpath")) {
-                resultpath = relativelyPath + props.getProperty(k);
+                resultpath = "./result/" + props.getProperty(k);
             } else if (k.equals("threadnum")) {
                 threadnum = Integer.valueOf(props.getProperty(k));
             } else if (k.equals("seedfile")) {
